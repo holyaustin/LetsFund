@@ -19,11 +19,13 @@ import { publicProvider } from 'wagmi/providers/public'
 import { Session } from 'next-auth'
 import { SessionProvider } from 'next-auth/react'
 
+const publicProviderAIA = process.env.NEXT_PUBLIC_AIA_RPC_URL
+
 const aiaTestnet: Chain = {
-  id: 1320,
+  id: 1_320,
   name: 'AIA_Testnet',
   network: 'aia',
-  iconUrl: 'https://aiachain.org/logo.png',
+  iconUrl: 'https://testnet.aiascan.com/static/logo-dark-placeholder.svg',
   iconBackground: '#000000',
   nativeCurrency: {
     decimals: 18,
@@ -39,7 +41,7 @@ const aiaTestnet: Chain = {
     etherscan: { name: 'Aia Block Explorer', url: 'https://testnet.aiascan.com/' },
   },
   testnet: true,
-}
+} 
 
 const { chains, publicClient } = configureChains(
   [aiaTestnet, hardhat],

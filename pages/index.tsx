@@ -24,7 +24,7 @@ const Page: NextPage<{ charitiesData: CharityStruct[] }> = ({ charitiesData }) =
   return (
     <div>
       <Head>
-        <title>Lets Fund Charity Tracker</title>
+        <title>Lets Fund Charity Manager</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />

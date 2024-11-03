@@ -9,12 +9,11 @@ const Quote = () => {
       <div className="text-white lg:w-2/3 w-full mx-auto space-y-4 mt-2 px-8 lg:px-0">
         <h4 className="font-semibold flex justify-start items-center space-x-1">
           <LuBadgeCheck />
-          <span>Trust & Safty</span>
+          <span>Start a charity campaign today </span>
         </h4>
         <h1 className="font-semibold text-5xl">We've got you covered.</h1>
         <p className="w-full lg:w-2/4">
-          With a global team dedicated to trust and safety, we’ve successfully managed fundraisers
-          worldwide for over a decade. Don’t worry about a thing, we’ve got it covered.
+          With a global team dedicated to helping you start that fundraising campaign. Our platform is built to help you easily set up your fundraising campaign and get your project get the required attention need globally..
         </p>
 
         <div className='flex'>

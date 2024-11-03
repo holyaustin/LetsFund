@@ -28,14 +28,14 @@ const Footer: React.FC = () => {
                 <li>Memorial</li>
                 <li>Education</li>
                 <li>Charity</li>
-                <li>Coronavirus fundraising</li>
+                <li>Flooding / Fire Disaster</li>
               </ul>
             </div>
 
             <div className="space-y-2">
               <h4 className="font-semibold">Learn more</h4>
               <ul className="space-y-2">
-                <li>How GoFundMe Works</li>
+                <li>How LetsFundMe Works</li>
                 <li>Common questions</li>
                 <li>Success stories</li>
                 <li>Supported countries</li>

@@ -14,16 +14,17 @@ const Banner: React.FC<{ mine?: boolean }> = ({ mine }) => {
       <div className="flex flex-col justify-end text-white p-8 space-y-8 relative z-10 h-80">
         {!mine ? (
           <h1 className="text-7xl text-center font-semibold">
-            Your Home <br /> for Help
+            it is Time <br /> <br /> to Charity
           </h1>
         ) : (
           <h1 className="text-7xl text-center font-semibold">
             Your Charity <br /> Projects
           </h1>
         )}
+        <br />
         <Link
           href={'/donations/create'}
-          className="bg-white text-green-600 px-4 space-x-1
+          className="bg-white text-green-600 px-4 space-x-1 font-bold
         flex justify-center items-center rounded-full text-center py-3
         transition duration-300 ease-in-out hover:bg-green-600 hover:text-white"
         >

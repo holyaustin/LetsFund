@@ -6,7 +6,7 @@ import NextAuth from 'next-auth/next'
 export default async function auth(req, res) {
   const providers = [
     CredentialsProvider({
-      name: 'Ethereum',
+      name: 'AIA',
       credentials: {
         message: {
           label: 'Message',
@@ -23,7 +23,7 @@ export default async function auth(req, res) {
         try {
           const siwe = new SiweMessage(JSON.parse(credentials?.message || '{}'))
           const nextAuthUrl = new URL(process.env.NEXTAUTH_URL)
-
+console.log("nextAuthUrl is", nextAuthUrl)
           const result = await siwe.verify({
             signature: credentials?.signature || '',
             domain: nextAuthUrl.host,

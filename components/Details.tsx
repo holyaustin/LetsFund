@@ -23,10 +23,7 @@ const Details: React.FC<ComponentProp> = ({ charity, supports }) => {
       </div>
 
       <p className="sm:flex justify-start items-center sm:space-x-1">
-        <span>
-          Xheng ipasum dolor sit amet consectetur adipisicing elit. Corrupti expedita tempore
-          consequatur natus quasi velit.
-        </span>
+
         <span className="flex">
           <MdCheckCircle size={25} className="text-green-600" />
           <a target="_blank" href={charity.profile} className="underline">
