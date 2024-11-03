@@ -2,7 +2,7 @@ require('@nomicfoundation/hardhat-toolbox')
 require('dotenv').config()
 
 module.exports = {
-  defaultNetwork: 'localhost',
+  defaultNetwork: 'aiaTestnet',
   networks: {
     hardhat: {},
     localhost: {

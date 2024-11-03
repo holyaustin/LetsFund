@@ -35,8 +35,8 @@ const aiaTestnet: Chain = {
     default: { http: ['https://aia-dataseed1-testnet.aiachain.org'] },
   },
   blockExplorers: {
-    default: { name: 'Bitfinity Block Explorer', url: 'https://explorer.bitfinity.network/' },
-    etherscan: { name: 'Bitfinity Block Explorer', url: 'https://explorer.bitfinity.network/' },
+    default: { name: 'Aia Block Explorer', url: 'https://testnet.aiascan.com/' },
+    etherscan: { name: 'Aia Block Explorer', url: 'https://testnet.aiascan.com/' },
   },
   testnet: true,
 }
