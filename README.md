@@ -1,11 +1,14 @@
 # LetsFund Project Documentation
 
-<!-- Read the full tutorial here: **[>> How to build a Decentralized Event Marketplace with Next.js, TypeScript, Tailwind CSS, and Solidity](https://daltonic.github.io)** -->
+"letsfund" is a groundbreaking Web3 charity fundraising platform designed to revolutionize the way charitable organizations raise funds and engage with their communities. Deployed on the AIA Blockchain, letsfund combines the transparency and security of blockchain technology with an intuitive user experience, allowing both donors and beneficiaries to experience a seamless and trustworthy process. By leveraging decentralized technologies, letsfund aims to minimize overhead costs, enhance donor engagement, and ensure that contributions have a direct and measurable impact.
 
-![Charity Marketplace](./screenshots/1.png)
-The `LetsFund.sol` project is a Solidity-written Ethereum smart contract that serves as the backbone of a decentralized application (dApp) for charity purposes. It leverages the OpenZeppelin library to ensure secure and standardized development of the contract.
+![Charity Marketplace](./screenshots/letsfund2.png)
 
-![Charity Marketplace](./screenshots/0.png)
+Letsfund operates as a decentralized crowdfunding platform dedicated to charitable causes. Whether it's supporting humanitarian projects, funding healthcare initiatives, providing educational resources, or aiding disaster relief efforts, letsfund empowers organizations and individuals to raise funds effectively. The platform assures donors that their contributions are transparent and utilized appropriately, addressing the common concerns regarding the effectiveness of charitable donations.
+
+The `LetsFund.sol` project is a Solidity smart contract that serves as the backbone of a decentralized application (dApp) for charity purposes. It leverages the OpenZeppelin library to ensure secure and standardized development of the contract.
+
+![Charity Marketplace](./screenshots/letsfund2.png)
 The contract is designed around two primary structures: CharityStruct and SupportStruct, representing a charity and a supporter, respectively.
 
 ## Key features:
@@ -46,6 +49,13 @@ Follow these steps to run the application:
 
 Now, your application should be up and running.
 
+## Important Project URLs
+
+- https://testnet.aiascan.com/address/0xe078fe7A93017F8e18c1C52E79632d0B94c56c26
+- https://youtu.be/DrqK19pH5q4
+- https://lets-fund.vercel.app/
+- https://github.com/holyaustin/LetsFund
+
 ## 📚 Key Technologies
 
 - 🌐 Next.js: A React framework for building server-side rendered and static websites.
@@ -61,7 +71,7 @@ Now, your application should be up and running.
 
 ## Useful links
 
-- 🏠 [Website](https://dappmentors.org/)
+- 🏠 [AIA Website](https://www.aiachain.org/en)
 - ⚽ [Metamask](https://metamask.io/)
 - 💡 [Hardhat](https://hardhat.org/)
 - 📈 [Alchemy](https://dashboard.alchemy.com/)

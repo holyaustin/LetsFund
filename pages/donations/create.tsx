@@ -122,7 +122,7 @@ const Page: NextPage = () => {
                 step={0.01}
                 min={0.01}
                 name="amount"
-                placeholder="Amount e.g. 0.02 ETH"
+                placeholder="Amount e.g. 0.02 AIA"
                 required
                 value={charity.amount}
                 onChange={handleChange}
