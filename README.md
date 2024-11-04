@@ -1,4 +1,4 @@
-# LetsFund Project Documentation
+# LetsFund: Web3 Consumer Project
 
 "letsfund" is a groundbreaking Web3 charity fundraising platform designed to revolutionize the way charitable organizations raise funds and engage with their communities. Deployed on the AIA Blockchain, letsfund combines the transparency and security of blockchain technology with an intuitive user experience, allowing both donors and beneficiaries to experience a seamless and trustworthy process. By leveraging decentralized technologies, letsfund aims to minimize overhead costs, enhance donor engagement, and ensure that contributions have a direct and measurable impact.
 
@@ -8,7 +8,7 @@ Letsfund operates as a decentralized crowdfunding platform dedicated to charitab
 
 The `LetsFund.sol` project is a Solidity smart contract that serves as the backbone of a decentralized application (dApp) for charity purposes. It leverages the OpenZeppelin library to ensure secure and standardized development of the contract.
 
-![Charity Marketplace](./screenshots/letsfund2.png)
+![Charity Marketplace](./screenshots/letsfund3.png)
 The contract is designed around two primary structures: CharityStruct and SupportStruct, representing a charity and a supporter, respectively.
 
 ## Key features:
@@ -51,10 +51,10 @@ Now, your application should be up and running.
 
 ## Important Project URLs
 
-- https://testnet.aiascan.com/address/0xe078fe7A93017F8e18c1C52E79632d0B94c56c26
-- https://youtu.be/DrqK19pH5q4
-- https://lets-fund.vercel.app/
-- https://github.com/holyaustin/LetsFund
+- Deployed Contract: https://testnet.aiascan.com/address/0xe078fe7A93017F8e18c1C52E79632d0B94c56c26
+- Youtube video: https://youtu.be/DrqK19pH5q4
+- Live dApp: https://lets-fund.vercel.app/
+- Github Repo: https://github.com/holyaustin/LetsFund
 
 ## 📚 Key Technologies
 
